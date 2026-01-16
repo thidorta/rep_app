@@ -1,0 +1,32 @@
+### --- Python (Backend) --- ###
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+# Arquivo de variáveis de ambiente (contém senhas e chaves)
+.env
+# Banco de dados local (SQLite)
+*.sqlite3
+*.db
+
+### --- Node / Expo (Frontend) --- ###
+node_modules/
+.expo/
+dist/
+web-build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Expo env files
+.env.local
+.env.*.local
+
+### --- Editores e Sistema --- ###
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

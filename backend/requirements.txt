@@ -1,0 +1,15 @@
+# Web Framework e Servidor
+fastapi
+uvicorn[standard]
+
+# Banco de Dados (ORM e Migrações)
+sqlmodel
+alembic
+
+# Segurança e Autenticação
+passlib[bcrypt]
+python-jose[cryptography]
+
+# Utilidades
+python-dotenv
+python-multipart
