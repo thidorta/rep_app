@@ -12,3 +12,6 @@ class User(SQLModel, table=True):
     republic_id: Optional[int] = Field(default=None, foreign_key="republic.id")
     
     republic: Optional["Republic"] = Relationship(back_populates="users")
+
+    fixed_rent: float = Field(default=0.0) # O valor base do quarto dele
+    role_tag: str = Field(default="morador")
